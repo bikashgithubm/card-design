@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,500;0,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    height: 60vh;
+    width: 78vw;
+    
+    display: flex; 
+}
+.cont1{
+    flex-basis: 50%;
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+   
+}
+.cont2{
+    flex-basis: 50%;
+    background-image:linear-gradient(hsl(277, 64%, 61%, 0.7),hsl(277, 64%, 61%, 0.7)), url('images/image-header-desktop.jpg');
+    
+}
+
+
+.heading{
+    color: hsl(0, 0%, 100%);
+    font-family: 'Red Hat Display', sans-serif;
+    top: 60px;
+    
+   
+   
+}
+.mid{
+    color: hsla(0, 0%, 100%, 0.75);
+    top: 160px;
+    line-height: 22px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#clr{
+    color: hsl(277, 64%, 61%);
+    
+}
+.cmn{
+    position: absolute;
+    left: 57px;
+}
+.btm{
+    display: flex;
+    top: 300px;
+}
+#dclr{
+    color:  hsl(0, 0%, 100%) ;
+    font-family: 'Red Hat Display', sans-serif;
+}
+#lclr{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 8px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.coll{
+    width: 130px;
+}
+.coll h4{
+    font-size: 13px;
+}
+@media only screen and (max-width: 375px){
+    .container{
+        height: auto;
+        width: 375px;
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+    }
+    .main{
+        height: auto;
+        width: 350px;
+        
+        display: flex; 
+        flex-direction: column-reverse;
+        po
+    }
+    .cont2{
+        flex-basis: 30%;
+        background-image:linear-gradient(hsl(277, 64%, 61%, 0.7),hsl(277, 64%, 61%, 0.7)), url('images/image-header-desktop.jpg');
+        
+    }
+
+}
